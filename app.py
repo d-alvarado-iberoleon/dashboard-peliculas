@@ -7,9 +7,8 @@ from utils.graficas import grafica_dispersion, grafica_top_peliculas, grafica_ar
 
 st.set_page_config(page_title="Análisis de películas", 
                    layout="wide", 
-                   page_icon="🎬")
-
-st.sidebar.expander(" ", expanded=True)
+                   page_icon="🎬", 
+                   initial_sidebar_state="expanded")
 
 st.title("🎬 Análisis interactivo de películas")
 
